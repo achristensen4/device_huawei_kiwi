@@ -143,6 +143,10 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Hardware disk encryption (FDE)
 TARGET_HW_DISK_ENCRYPTION := true
 
+# Optimizations 
+O3_OPTS := true
+GRAPHITE_OPTS := true
+
 # Release tools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_kiwi
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
