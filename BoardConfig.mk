@@ -160,6 +160,14 @@ include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
     device/huawei/kiwi/sepolicy
+    
+# Snapdragon LLVM
+TARGET_USE_SDCLANG := true
+ifneq ($(HOST_OS),darwin)
+    SDCLANG := true
+    SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin
+    SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+endif
 
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_kiwi
