@@ -1,0 +1,32 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_kernel_huawei_kiwi",
+    "target_path": "kernel/huawei/kiwi",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_packages_apps_FlipFlap",
+    "target_path": "packages/apps/FlipFlap",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "MoKee/android_prebuilts_snapdragon_llvm-3.8",
+    "target_path": "prebuilts/clang/linux-x86/host/sdclang-3.8",
+    "branch":      "mkn-mr1"
+  }
+]
