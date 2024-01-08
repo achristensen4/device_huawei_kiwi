@@ -4,7 +4,7 @@ persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
 persist.audio.fluence.speaker=true
 # can be "fluence" or "fluencepro" or "none"
-ro.qc.sdk.audio.fluencetype=fluence
+ro.qc.sdk.audio.fluencetype=fluencepro
 ro.qc.sdk.audio.ssr=false
 tunnel.audio.encode=false
 use.voice.path.for.pcm.voip=true
@@ -28,7 +28,7 @@ persist.camera.cpp.duplication=false
 persist.camera.hal.debug=0
 
 # Display
-dalvik.vm.heapsize=512m
+dalvik.vm.heapsize256
 dalvik.vm.zygotemaxfailedboots=5
 debug.egl.hw=0
 debug.enable.sglscale=1
@@ -90,7 +90,7 @@ ro.config.dsds_mode=umts_gsm
 ro.config.eons_always_ap=false
 ro.config.force_reject_cause=true
 ro.config.hw_dsda=false
-ro.config.hw_fast_dormancy=true
+ro.config.hw_fast_dormancy=false
 ro.config.hw_fdtimer_screenOff=3000
 ro.config.hw_fdtimer_screenOn=-1
 ro.config.hw_roaming_optimize=true
